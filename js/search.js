@@ -4,7 +4,7 @@ var cookie = document.cookie
   .split(';')
   .map(cookie => cookie.split('='))
   .reduce((accumulator, [key, value]) => ({ ...accumulator, [key.trim()]: decodeURIComponent(value) }), {});
-if(cookie.language.trim()=='EN'){
+if(cookie.language=='EN'){
   $(".message").text("Map research");
   var lang = $(".language" ).attr('id');
  $('path').each(function(index, item) {
