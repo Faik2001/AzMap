@@ -22,7 +22,7 @@ background: linear-gradient(to top, rgb(60, 150, 173) 0%, rgba(64, 177, 194, 0.6
    background-repeat: no-repeat;
     
 }
-.Pause{
+.Pause, .Back {
     z-index: 1600;
 }
 .PauseForm{
