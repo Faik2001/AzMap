@@ -67,6 +67,11 @@ background: linear-gradient(to top, rgb(60, 150, 173) 0%, rgba(64, 177, 194, 0.6
     display: flex;
     height: 42px;
 }
+.language{
+ -moz-user-select: none;
+-khtml-user-select: none;
+user-select: none;     
+}
 .search{
     cursor: pointer;
     color: white;
