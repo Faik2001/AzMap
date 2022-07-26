@@ -258,6 +258,7 @@ var cookie = document.cookie
         //window.scrollTo(0, document.body.scrollHeight);
     function Pause() {
       if(pause){
+        $(window).scrollTop(0);
         stop();
         if($(".continue").text()==BlockLang['confirm']){
         $('.continue').removeClass("activ");
